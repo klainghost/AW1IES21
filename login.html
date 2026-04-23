@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA RANITA 3D - Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo La Ranita 3D" width="100" height="100">
+            <h2>LA RANITA 3D</h2>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/rol.html">Juegos de ROL</a></li>
+            <li><a href="pages/merchandising.html">Merchandising</a></li>
+            <li><a href="pages/novedades.html">Novedades</a></li>
+        </ul>
+        
+        <button class="logout-btn" onclick="window.location.href='login-registro.html'">CERRAR SESIÓN</button>
+    </nav>
+    
+    <!-- FORMULARIO DE LOGIN -->
+    <main>
+        <h1>Iniciar Sesión</h1>
+        
+        <form action="" method="post">
+            <div>
+                <!-- Email -->
+                <label for="txtemail">
+                    <b>Email:</b>
+                </label>
+                <input type="email" id="txtemail" name="txtemail" required placeholder="Ingrese su email"><br><br>
+                
+                <!-- Contraseña -->
+                <label for="password">
+                    <b>Contraseña:</b>
+                </label>
+                <input type="password" id="password" name="password" required placeholder="Ingrese su contraseña"><br><br>
+                
+                <!-- Botón de envío -->
+                <button type="submit">Ingresar</button>
+                <br><br>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

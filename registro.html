@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA RANITA 3D - Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo La Ranita 3D" width="100" height="100">
+            <h2>LA RANITA 3D</h2>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/rol.html">Juegos de ROL</a></li>
+            <li><a href="pages/merchandising.html">Merchandising</a></li>
+            <li><a href="pages/novedades.html">Novedades</a></li>
+        </ul>
+        
+        
+    </nav>
+    
+    <!-- FORMULARIO DE REGISTRO -->
+    <main>
+        <h1>Registro</h1>
+        
+        <form action="" method="post">
+            <div>
+            <!-- Nombre -->
+            <label for="txtNombre" >
+                <b>Nombre:</b>
+            <label>
+
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingreses su nombre">
+            
+            <!-- Apellido -->
+            <label for="txtApellido" >
+                <b>Apellido:</b>
+            <label>
+
+            <input type="text" id="apellido" name="apellido" required placeholder="Ingreses su apellido">
+
+            <br><br>
+            <!-- Email -->
+            <label for="txtemail">
+                <b>Email:</b>
+                </label>
+            <input type="email" id="txtemail" name="txtemail" required><br><br>
+            
+            <!-- Contraseña -->
+            <label for="password">
+                <b>Contraseña:</label></b>
+            </label>
+
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <!-- Fecha de Nacimiento -->
+            <label for="fecha_nacimiento">
+                <b> Fecha de Nacimiento: </b>
+
+            </label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+            
+            <!-- Botón de envío -->
+            <button type="submit">Registrarse </button> 
+            <br><br>
+                      
+
+        </form> 
+    </main>
+</body>
+</html>
