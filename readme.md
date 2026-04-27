@@ -12,5 +12,3 @@ Este proyecto constituye la primera etapa del desarrollo de una aplicación ecom
 - Sistema de autenticación con formularios de Login y Registro
 - Página de acceso centralizada para gestión de sesiones
 - Estructura modular y escalable para futuras mejoras
-
-**Tecnologías:** HTML5, CSS3
