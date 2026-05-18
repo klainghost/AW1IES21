@@ -2,15 +2,17 @@ function generarNavbar() {
     const nav = document.getElementById("navbar");
     if (!nav) return;
 
+    const base = typeof navBasePath !== "undefined" ? navBasePath : "";
+
     let links = '<ul class="nav-links">';
     navLinks.forEach((link) => {
-        links += `<li><a href="${link.url}">${link.titulo}</a></li>`;
+        links += `<li><a href="${base}${link.url}">${link.titulo}</a></li>`;
     });
-    links += '</ul>';
+    links += "</ul>";
 
     nav.innerHTML = `
         <div class="logo">
-            <img src="../../images/logo.png" alt="Logo La Ranita 3D" width="100" height="100">
+            <img src="${base}images/logo.png" alt="Logo La Ranita 3D" width="100" height="100">
             <h2>LA RANITA 3D</h2>
         </div>
         ${links}

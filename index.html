@@ -10,24 +10,7 @@
 </head>
 <body>
     <!-- NAVBAR - Barra de navegación -->
-    <nav class="navbar">
-        <!-- Logo de la tienda -->
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo La Ranita 3D" width="150" height="150">
-            <h2>LA RANITA 3D</h2>
-        </div>
-        
-        <!-- Menú de navegación -->
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/categorias/rol.html">Juegos de ROL</a></li>
-            <li><a href="pages/categorias/merchandising.html">Merchandising</a></li>
-            <li><a href="pages/categorias/novedades.html">Novedades</a></li>
-        </ul>
-        
-        <!-- Botón de logout -->
-        <button class="logout-btn" onclick="logout()">CERRAR SESIÓN</button>
-    </nav>
+    <nav class="navbar" id="navbar"></nav>
     
     <!-- CONTENIDO PRINCIPAL -->
     <main>
@@ -105,11 +88,9 @@
         <p>Tienda especializada en impresión 3D y servicios de merchandising personalizados</p>
     </footer>
     
-    <script>
-        function logout() {
-            sessionStorage.removeItem("usuario");
-            window.location.href = "pages/auth/login.html";
-        }
-    </script>
+    <script>const navBasePath = "";</script>
+    <script src="js/data/navLinks.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/controllers/logout.js"></script>
 </body>
 </html>
