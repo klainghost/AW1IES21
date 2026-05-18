@@ -1,0 +1,52 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "titulo": "Miniaturas 3D Personalizadas",
+            "descripcion": "Miniaturas impresas en 3D de alta calidad. Personajes heroicos, monstruos épicos y criaturas fantásticas. Perfectas para cualquier campaña de rol. Diseños detallados y listos para pintar.",
+            "precio": 1200,
+            "imagen": "mini.webp",
+            "categoria": "rol"
+        },
+        {
+            "id": 2,
+            "titulo": "Escenografía 3D para Campañas",
+            "descripcion": "Terrenos, castillos, mazmorras y estructuras completas impresas en 3D. Crea ambientes inmersivos para tus sesiones de juego. Modular y fácil de pintar.",
+            "precio": 2500,
+            "imagen": "ruina.webp",
+            "categoria": "rol"
+        },
+        {
+            "id": 3,
+            "titulo": "Dados y Accesorios 3D",
+            "descripcion": "Dados personalizados, torres de dados, bandejas de organización y accesorios temáticos impresos en 3D. Diseños únicos y funcionales para organizar tu mesa de juego.",
+            "precio": 800,
+            "imagen": "caja.webp",
+            "categoria": "rol"
+        },
+        {
+            "id": 4,
+            "titulo": "Llaveros Personalizados 3D",
+            "descripcion": "Llaveros impresos en 3D con tu logo o diseño. Perfectos como regalo corporativo o para promocionar tu marca. Durable, ligero y completamente personalizable.",
+            "precio": 500,
+            "imagen": "llavero.webp",
+            "categoria": "merchandising"
+        },
+        {
+            "id": 5,
+            "titulo": "Accesorios Corporativos 3D",
+            "descripcion": "Soportes para teléfono, organizadores de escritorio, marcapáginas y accesorios de oficina impresos en 3D. Diseñados para reflejar la identidad de tu empresa con profesionalismo.",
+            "precio": 1500,
+            "imagen": "celu.webp",
+            "categoria": "merchandising"
+        },
+        {
+            "id": 6,
+            "titulo": "Artículos Promocionales 3D",
+            "descripcion": "Productos promocionales personalizados impresos en 3D. Desde juguetes hasta regalos corporativos. Destaca tu marca con merchandising único y memorable.",
+            "precio": 900,
+            "imagen": "portavaso.webp",
+            "categoria": "merchandising"
+        }
+    ]
+}

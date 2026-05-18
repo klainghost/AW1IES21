@@ -20,13 +20,13 @@
         <!-- Menú de navegación -->
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/rol.html">Juegos de ROL</a></li>
-            <li><a href="pages/merchandising.html">Merchandising</a></li>
-            <li><a href="pages/novedades.html">Novedades</a></li>
+            <li><a href="pages/categorias/rol.html">Juegos de ROL</a></li>
+            <li><a href="pages/categorias/merchandising.html">Merchandising</a></li>
+            <li><a href="pages/categorias/novedades.html">Novedades</a></li>
         </ul>
         
         <!-- Botón de logout -->
-        <button class="logout-btn" onclick="window.location.href='login-registro.html'">CERRAR SESIÓN</button>
+        <button class="logout-btn" onclick="logout()">CERRAR SESIÓN</button>
     </nav>
     
     <!-- CONTENIDO PRINCIPAL -->
@@ -57,7 +57,7 @@
                         <p class="product-card__price">Desde $800</p>
                         
                         <!-- Botón que lleva a la categoría -->
-                        <button class="product-card__button" onclick="window.location.href='pages/rol.html'">Ver Más</button>
+                        <button class="product-card__button" onclick="window.location.href='pages/categorias/rol.html'">Ver Más</button>
                     </div>
                 </div>
                 
@@ -74,7 +74,7 @@
                         
                         <p class="product-card__price">Desde $500</p>
                         
-                        <button class="product-card__button" onclick="window.location.href='pages/merchandising.html'">Ver Más</button>
+                        <button class="product-card__button" onclick="window.location.href='pages/categorias/merchandising.html'">Ver Más</button>
                     </div>
                 </div>
                 
@@ -91,7 +91,7 @@
                         
                         <p class="product-card__price">Conocé las últimas actualizaciones</p>
                         
-                        <button class="product-card__button" onclick="window.location.href='pages/novedades.html'">Ver Más</button>
+                        <button class="product-card__button" onclick="window.location.href='pages/categorias/novedades.html'">Ver Más</button>
                     </div>
                 </div>
                 
@@ -105,5 +105,11 @@
         <p>Tienda especializada en impresión 3D y servicios de merchandising personalizados</p>
     </footer>
     
+    <script>
+        function logout() {
+            sessionStorage.removeItem("usuario");
+            window.location.href = "pages/auth/login.html";
+        }
+    </script>
 </body>
 </html>
