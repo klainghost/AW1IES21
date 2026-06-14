@@ -14,7 +14,7 @@ formulario.addEventListener("submit", (event) => {
             );
 
             if (usuarioEncontrado) {
-                sessionStorage.setItem("usuario", usuarioEncontrado.nombre);
+                guardarUsuario(usuarioEncontrado.nombre);
                 window.location.href = "../../index.html";
             } else {
                 document.getElementById("mensajeError").textContent = "Email o contraseña incorrectos.";

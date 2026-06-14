@@ -6,7 +6,8 @@ function generarNavbar() {
 
     let links = '<ul class="nav-links">';
     navLinks.forEach((link) => {
-        links += `<li><a href="${base}${link.url}">${link.titulo}</a></li>`;
+        const id = link.titulo === "Carrito" ? ' id="navCarrito"' : "";
+        links += `<li><a href="${base}${link.url}"${id}>${link.titulo}</a></li>`;
     });
     links += "</ul>";
 
@@ -18,6 +19,16 @@ function generarNavbar() {
         ${links}
         <button class="logout-btn" onclick="logout()">CERRAR SESIÓN</button>
     `;
+
+    actualizarContadorCarrito();
+}
+
+function actualizarContadorCarrito() {
+    const navCarrito = document.getElementById("navCarrito");
+    if (!navCarrito) return;
+
+    const cantidad = contarProductosCarrito();
+    navCarrito.textContent = cantidad > 0 ? `Carrito (${cantidad} productos)` : "Carrito";
 }
 
 generarNavbar();

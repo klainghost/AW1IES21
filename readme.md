@@ -41,7 +41,7 @@ AW1IES21/
 ├── .gitignore
 │
 ├── api/
-│   ├── data.json               ← Productos de la tienda (ROL y Merchandising)
+│   ├── data.json               ← Productos de la tienda
 │   └── users.json              ← Usuarios habilitados para el login
 │
 ├── css/
@@ -51,7 +51,7 @@ AW1IES21/
 │   ├── _btn.css                ← Todos los estilos de botones y controles de cantidad
 │   └── _text.css               ← Tipografía, textos, animaciones y utilidades
 │
-├── images/                     ← Imágenes y logos del sitio
+├── images/                     ← Imágenes y logos del sitio, organizadas en banner/ y productos/<categoria>/
 │
 ├── js/
 │   ├── components/
@@ -60,19 +60,25 @@ AW1IES21/
 │   │   └── card.js             ← Componente: genera cards de productos desde el JSON
 │   ├── controllers/
 │   │   ├── login.js            ← Controlador: valida login contra users.json
-│   │   └── logout.js           ← Controlador: cierra sesión y redirige al login
-│   └── data/
-│       └── navLinks.js         ← Array de objetos con los links del navbar
+│   │   ├── logout.js           ← Controlador: cierra sesión y redirige al login
+│   │   └── carrito.js          ← Controlador: muestra y gestiona el carrito de compras
+│   ├── data/
+│   │   └── navLinks.js         ← Array de objetos con los links del navbar
+│   └── utils/
+│       └── storage.js          ← Funciones para manejar el carrito (localStorage) y el usuario (sessionStorage)
 │
 └── pages/
     ├── auth/
     │   ├── login.html          ← Formulario de inicio de sesión
     │   ├── login-registro.html ← Página de acceso (elegir login o registro -                                               ya no  es necesaria)
     │   └── registro.html       ← Formulario de registro de usuario 
+    ├── carrito/
+    │   └── carrito.html        ← Carrito de compras
     └── categorias/
-        ├── rol.html            ← Categoría: Juegos de ROL
-        ├── merchandising.html  ← Categoría: Merchandising
-        └── novedades.html      ← Categoría: Novedades
+        ├── miniaturas.html     ← Categoría: Miniaturas
+        ├── dados.html          ← Categoría: Dados
+        ├── escenografia.html   ← Categoría: Escenografía
+        └── miscelaneas.html    ← Categoría: Misceláneas
 ```
 
 ---
@@ -99,3 +105,14 @@ AW1IES21/
 ### Cards de productos
 - Se agregaron controles de cantidad (`+` / `-`) a cada card de producto.
 - Los datos de productos (título, descripción, precio, imagen, categoría) están centralizados en `api/data.json`.
+
+---
+
+# Actualización 14/06/26
+
+- Se agregan 30 productos nuevos al catálogo.
+- Se hace un rebranding de la página, enfocándose principalmente en rol.
+- Se reestructura el Home con un banner y cambia la fuente de los títulos.
+- Se cambian las categorías: ahora son Miniaturas, Dados, Escenografía y Misceláneas. Novedades y Merchandising pasan a formar parte de Misceláneas.
+- Se reorganizan las imágenes en subcarpetas dentro de `images/` (banner/ y productos/<categoria>/).
+- Se crea `js/utils/storage.js` para centralizar el manejo del carrito y del usuario logueado.

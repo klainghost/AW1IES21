@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+
 :root {
   --color-primary: #2d5016;
   --color-secondary: #b7cd7f;
   --color-accent: #8fbc3d;
+  --color-gold: #c9a227;
   --color-dark: #1a1a1a;
-  --color-light: #f4f4f4;
+  --color-light: #f3ead7;
   --color-white: #ffffff;
   --color-hover: #6fa73a;
   --color-danger: #d32f2f;

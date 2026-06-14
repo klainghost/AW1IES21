@@ -1,6 +1,8 @@
 const navLinks = [
     { titulo: "Inicio", url: "index.html" },
-    { titulo: "Juegos de ROL", url: "pages/categorias/rol.html" },
-    { titulo: "Merchandising", url: "pages/categorias/merchandising.html" },
-    { titulo: "Novedades", url: "pages/categorias/novedades.html" }
+    { titulo: "Miniaturas", url: "pages/categorias/miniaturas.html" },
+    { titulo: "Dados", url: "pages/categorias/dados.html" },
+    { titulo: "Escenografía", url: "pages/categorias/escenografia.html" },
+    { titulo: "Misceláneas", url: "pages/categorias/miscelaneas.html" },
+    { titulo: "Carrito", url: "pages/carrito/carrito.html" }
 ];

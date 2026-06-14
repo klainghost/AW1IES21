@@ -5,48 +5,312 @@
             "titulo": "Miniaturas 3D Personalizadas",
             "descripcion": "Miniaturas impresas en 3D de alta calidad. Personajes heroicos, monstruos épicos y criaturas fantásticas. Perfectas para cualquier campaña de rol. Diseños detallados y listos para pintar.",
             "precio": 1200,
-            "imagen": "mini.webp",
-            "categoria": "rol"
+            "imagen": "productos/miniaturas/mini.webp",
+            "categoria": "miniaturas"
         },
         {
             "id": 2,
             "titulo": "Escenografía 3D para Campañas",
             "descripcion": "Terrenos, castillos, mazmorras y estructuras completas impresas en 3D. Crea ambientes inmersivos para tus sesiones de juego. Modular y fácil de pintar.",
             "precio": 2500,
-            "imagen": "ruina.webp",
-            "categoria": "rol"
+            "imagen": "productos/escenografia/ruina.webp",
+            "categoria": "escenografia"
         },
         {
             "id": 3,
             "titulo": "Dados y Accesorios 3D",
             "descripcion": "Dados personalizados, torres de dados, bandejas de organización y accesorios temáticos impresos en 3D. Diseños únicos y funcionales para organizar tu mesa de juego.",
             "precio": 800,
-            "imagen": "caja.webp",
-            "categoria": "rol"
+            "imagen": "productos/dados/caja.webp",
+            "categoria": "dados"
         },
         {
             "id": 4,
             "titulo": "Llaveros Personalizados 3D",
             "descripcion": "Llaveros impresos en 3D con tu logo o diseño. Perfectos como regalo corporativo o para promocionar tu marca. Durable, ligero y completamente personalizable.",
             "precio": 500,
-            "imagen": "llavero.webp",
-            "categoria": "merchandising"
+            "imagen": "productos/miscelaneas/llavero.webp",
+            "categoria": "miscelaneas"
         },
         {
             "id": 5,
             "titulo": "Accesorios Corporativos 3D",
             "descripcion": "Soportes para teléfono, organizadores de escritorio, marcapáginas y accesorios de oficina impresos en 3D. Diseñados para reflejar la identidad de tu empresa con profesionalismo.",
             "precio": 1500,
-            "imagen": "celu.webp",
-            "categoria": "merchandising"
+            "imagen": "productos/miscelaneas/celu.webp",
+            "categoria": "miscelaneas"
         },
         {
             "id": 6,
             "titulo": "Artículos Promocionales 3D",
             "descripcion": "Productos promocionales personalizados impresos en 3D. Desde juguetes hasta regalos corporativos. Destaca tu marca con merchandising único y memorable.",
             "precio": 900,
-            "imagen": "portavaso.webp",
-            "categoria": "merchandising"
+            "imagen": "productos/miscelaneas/portavaso.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 7,
+            "titulo": "Pack Sorpresa 3D",
+            "descripcion": "Edición limitada con una selección de piezas exclusivas impresas en 3D. Ideal para coleccionistas que buscan algo distinto cada mes.",
+            "precio": 1800,
+            "imagen": "productos/miscelaneas/Novedades.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 8,
+            "titulo": "Figuras de Edición Limitada",
+            "descripcion": "Figuras coleccionables de tiempo limitado, diseñadas en colaboración con artistas invitados. Stock reducido y numerado.",
+            "precio": 2200,
+            "imagen": "productos/miniaturas/Rol.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 9,
+            "titulo": "Kit de Personalización 3D",
+            "descripcion": "Set de piezas intercambiables para personalizar tus impresiones favoritas. Incluye accesorios, bases y complementos modulares.",
+            "precio": 1300,
+            "imagen": "productos/miscelaneas/Merch.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 10,
+            "titulo": "Grupo de Aventureros 3D",
+            "descripcion": "Set de miniaturas con un grupo completo de aventureros listos para la próxima campaña. Variedad de clases y poses dinámicas, ideal para representar a tu grupo de juego.",
+            "precio": 2800,
+            "imagen": "productos/miniaturas/grupo-aventureros.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 11,
+            "titulo": "Escuadrón de Caballeros 3D",
+            "descripcion": "Cinco caballeros con escudo y armadura completa, perfectos como guardia de honor o ejército de PNJ para tus batallas.",
+            "precio": 2600,
+            "imagen": "productos/miniaturas/escuadron-caballeros.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 12,
+            "titulo": "Compañía Heroica 3D",
+            "descripcion": "Seis héroes que incluyen mago, druida con tocado de ciervo, paladín de escudo sagrado y bardo con laúd. Cada figura está lista para pintar.",
+            "precio": 2900,
+            "imagen": "productos/miniaturas/compania-heroica.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 13,
+            "titulo": "Banda de Goblins 3D",
+            "descripcion": "Cinco goblins armados con dagas, lanzas y artefactos mágicos. Una horda perfecta para emboscar a los aventureros.",
+            "precio": 2400,
+            "imagen": "productos/miniaturas/banda-goblins.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 14,
+            "titulo": "Paladín Encapuchado 3D",
+            "descripcion": "Miniatura de un paladín con armadura pesada, capa larga y brazos cruzados. Pose imponente, ideal como jefe o aliado poderoso.",
+            "precio": 950,
+            "imagen": "productos/miniaturas/paladin-encapuchado.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 15,
+            "titulo": "Caballero de la Espada Larga 3D",
+            "descripcion": "Caballero con armadura ornamentada y espada larga en alto. Pieza central perfecta para cualquier ejército medieval.",
+            "precio": 950,
+            "imagen": "productos/miniaturas/caballero-espada-larga.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 16,
+            "titulo": "Mago Rana Errante 3D",
+            "descripcion": "El mago rana, mascota de La Ranita 3D, en versión miniatura, con bastón y capa. Compañero ideal para tus aventuras de mesa.",
+            "precio": 850,
+            "imagen": "productos/miniaturas/mago-rana.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 17,
+            "titulo": "Explorador Rana 3D",
+            "descripcion": "Una rana aventurera encapuchada con arma al hombro y mochila de viaje. La compañera perfecta del Mago Rana.",
+            "precio": 850,
+            "imagen": "productos/miniaturas/explorador-rana.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 18,
+            "titulo": "Dragón Negro Alado 3D",
+            "descripcion": "Imponente dragón negro con alas extendidas, ideal como jefe final o pieza decorativa de gran tamaño.",
+            "precio": 3200,
+            "imagen": "productos/miniaturas/dragon-negro-alado.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 19,
+            "titulo": "Dragón Guardián Blanco 3D",
+            "descripcion": "Dragón blanco posado sobre una base rocosa con las alas desplegadas. Una miniatura de impacto para encuentros épicos.",
+            "precio": 3000,
+            "imagen": "productos/miniaturas/dragon-guardian-blanco.webp",
+            "categoria": "miniaturas"
+        },
+        {
+            "id": 20,
+            "titulo": "Bandeja de Dados de Madera 3D",
+            "descripcion": "Bandeja organizadora con compartimentos para cada tipo de dado, de D4 a D20. Incluye un set de dados de regalo.",
+            "precio": 1400,
+            "imagen": "productos/dados/bandeja-dados-madera.webp",
+            "categoria": "dados"
+        },
+        {
+            "id": 21,
+            "titulo": "Estuche Plegable de Dados 3D",
+            "descripcion": "Estuche rígido plegable con separadores para cada tipo de dado y un compartimento extra para guardar una miniatura.",
+            "precio": 1500,
+            "imagen": "productos/dados/estuche-plegable-dados.webp",
+            "categoria": "dados"
+        },
+        {
+            "id": 22,
+            "titulo": "Caja Organizadora de Dados 3D",
+            "descripcion": "Caja de dos niveles con divisiones individuales para clasificar tus dados por tipo o set, incluye bandeja deslizable.",
+            "precio": 1600,
+            "imagen": "productos/dados/caja-organizadora-dados.webp",
+            "categoria": "dados"
+        },
+        {
+            "id": 23,
+            "titulo": "Cofre Dragón Guarda-Dados 3D",
+            "descripcion": "Cofre con forma de fauce de dragón y colmillos afilados. Guarda tu set de dados dentro de las garras de la bestia.",
+            "precio": 1700,
+            "imagen": "productos/dados/cofre-dragon-dados.webp",
+            "categoria": "dados"
+        },
+        {
+            "id": 24,
+            "titulo": "Espada Guarda-Dados 3D",
+            "descripcion": "Estuche con forma de espada que oculta un compartimento secreto para tu set de dados de metal.",
+            "precio": 1100,
+            "imagen": "productos/dados/espada-guarda-dados.webp",
+            "categoria": "dados"
+        },
+        {
+            "id": 25,
+            "titulo": "Cabaña Hongo Encantada 3D",
+            "descripcion": "Pequeña cabaña con techo de hongo y jardín, perfecta para ambientar pueblos de gnomos o hadas.",
+            "precio": 1900,
+            "imagen": "productos/escenografia/cabana-hongo.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 26,
+            "titulo": "Establo Medieval 3D",
+            "descripcion": "Establo de madera con cercas, ideal para recrear granjas y pueblos en tus mapas de campaña.",
+            "precio": 2100,
+            "imagen": "productos/escenografia/establo-medieval.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 27,
+            "titulo": "Casa de Entramado de Madera 3D",
+            "descripcion": "Casa medieval de piedra y madera con techo de tejas. Una pieza versátil para cualquier pueblo o ciudad.",
+            "precio": 2000,
+            "imagen": "productos/escenografia/casa-entramado-madera.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 28,
+            "titulo": "Campamento de Aventureros 3D",
+            "descripcion": "Set de tiendas de campaña y fogata, perfecto para recrear el descanso de tu grupo durante el viaje.",
+            "precio": 1700,
+            "imagen": "productos/escenografia/campamento-aventureros.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 29,
+            "titulo": "Torre de Vigía 3D",
+            "descripcion": "Torre de piedra con escalera y mirador, ideal como punto estratégico o entrada a una fortaleza.",
+            "precio": 2300,
+            "imagen": "productos/escenografia/torre-vigia.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 30,
+            "titulo": "Set de Mesa y Bancos 3D",
+            "descripcion": "Mesa con bancos y sillas a escala, perfecta para ambientar tabernas y campamentos.",
+            "precio": 1200,
+            "imagen": "productos/escenografia/mesa-bancos-taberna.webp",
+            "categoria": "escenografia"
+        },
+        {
+            "id": 31,
+            "titulo": "Llavero Personalizado con Nombre 3D",
+            "descripcion": "Llavero con el nombre que elijas en relieve y combinación de colores a definir. Un regalo personalizado único.",
+            "precio": 600,
+            "imagen": "productos/miscelaneas/llavero-nombre-personalizado.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 32,
+            "titulo": "Llavero Mancuerna Fitness 3D",
+            "descripcion": "Llavero con forma de mancuerna, ideal para los amantes del gimnasio.",
+            "precio": 550,
+            "imagen": "productos/miscelaneas/llavero-mancuerna.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 33,
+            "titulo": "Llavero Hollow Knight 3D",
+            "descripcion": "Llavero Hollow Knight. Pieza de colección para fans.",
+            "precio": 600,
+            "imagen": "productos/miscelaneas/llavero-aventurero-encapuchado.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 34,
+            "titulo": "Set de Llaveros Criaturas Coleccionables 3D",
+            "descripcion": "Set de llaveros de pokemones coleccionables en distintos colores, ideal para combinar y coleccionar.",
+            "precio": 2400,
+            "imagen": "productos/miscelaneas/set-llaveros-criaturas.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 35,
+            "titulo": "Llavero Multiherramienta 3D",
+            "descripcion": "Llavero multifunción con herramientas integradas, práctico y resistente, disponible en varios colores.",
+            "precio": 700,
+            "imagen": "productos/miscelaneas/llavero-multiherramienta.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 36,
+            "titulo": "Llavero Chanchito 3D",
+            "descripcion": "Llavero con forma de chanchito tierno, ideal como detalle de regalo.",
+            "precio": 500,
+            "imagen": "productos/miscelaneas/llavero-chanchito.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 37,
+            "titulo": "Set de Pines de Hojas 3D",
+            "descripcion": "Set de pines decorativos con formas de hojas tropicales, perfectos para mochilas o tableros de corcho.",
+            "precio": 900,
+            "imagen": "productos/miscelaneas/set-pines-hojas.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 38,
+            "titulo": "Organizador Rana 3D",
+            "descripcion": "Organizador de escritorio con forma de rana de boca abierta, ideal para clips, gomas y accesorios varios.",
+            "precio": 1400,
+            "imagen": "productos/miscelaneas/organizador-rana.webp",
+            "categoria": "miscelaneas"
+        },
+        {
+            "id": 39,
+            "titulo": "Decoración de Pared Pikachu 3D",
+            "descripcion": "Decoración de pared con efecto de impacto, ideal para fans de personajes retro de videojuegos.",
+            "precio": 1100,
+            "imagen": "productos/miscelaneas/decoracion-pared-electrico.webp",
+            "categoria": "miscelaneas"
         }
     ]
 }

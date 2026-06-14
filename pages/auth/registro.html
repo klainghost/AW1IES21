@@ -8,19 +8,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/logo.png" alt="Logo La Ranita 3D" width="100" height="100">
-            <h2>LA RANITA 3D</h2>
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="../../index.html">Inicio</a></li>
-            <li><a href="../categorias/rol.html">Juegos de ROL</a></li>
-            <li><a href="../categorias/merchandising.html">Merchandising</a></li>
-            <li><a href="../categorias/novedades.html">Novedades</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar" id="navbar"></nav>
 
     <!-- FORMULARIO DE REGISTRO -->
     <main>
@@ -47,5 +35,14 @@
             </div>
         </form>
     </main>
+
+    <footer id="footer"></footer>
+
+    <script>const navBasePath = "../../";</script>
+    <script src="../../js/data/navLinks.js"></script>
+    <script src="../../js/utils/storage.js"></script>
+    <script src="../../js/components/navbar.js"></script>
+    <script src="../../js/components/footer.js"></script>
+    <script src="../../js/controllers/logout.js"></script>
 </body>
 </html>

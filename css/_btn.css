@@ -160,6 +160,27 @@ form button[type="submit"]:active {
 }
 
 
+/* BOTONES CARRITO */
+.btn-eliminar {
+  background-color: var(--color-danger);
+  color: var(--color-white);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all var(--transition-speed) var(--transition-timing);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.btn-eliminar:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05);
+}
+
+
 /* ESTADOS */
 button:disabled,
 input:disabled {

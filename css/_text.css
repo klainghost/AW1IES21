@@ -1,5 +1,6 @@
 /* TÍTULOS Y TEXTOS GENERALES */
 main h1 {
+  font-family: 'Cinzel', serif;
   font-size: 2.5rem;
   color: var(--color-primary);
   margin-bottom: var(--spacing-lg);
@@ -17,6 +18,7 @@ main p {
 
 .navbar__logo h2,
 .logo h2 {
+  font-family: 'Cinzel', serif;
   color: var(--color-white);
   font-size: 1.5rem;
   font-weight: bold;
@@ -61,11 +63,45 @@ form label {
 }
 
 .category-section__title {
+  font-family: 'Cinzel', serif;
   font-size: 2rem;
   color: var(--color-primary);
   margin-bottom: var(--spacing-xl);
-  border-bottom: 3px solid var(--color-accent);
+  border-bottom: 3px solid var(--color-gold);
   padding-bottom: var(--spacing-md);
+}
+
+.category-section__subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: var(--color-primary);
+}
+
+
+/* CARRITO - TEXTO */
+.cart-item__title {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+}
+
+.cart-item__detail {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: var(--spacing-xs);
+}
+
+.cart-item__subtotal {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--color-danger);
+}
+
+.cart-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
 }
 
 
